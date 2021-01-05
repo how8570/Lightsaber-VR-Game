@@ -1,6 +1,6 @@
 # LightsaberVR
 
-[demo img](./img.png)
+![demo img](./img.png)
 
 ## 控制
 - 按下任意劍開啟光劍
