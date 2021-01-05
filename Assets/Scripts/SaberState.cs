@@ -22,7 +22,7 @@ public class SaberState : MonoBehaviour
     void Update()
     {
         bool pre = isSaberOn;
-        isSaberOn = Input.GetKey(KeyCode.Mouse0);
+        isSaberOn = Input.anyKey;
         if (!pre && isSaberOn)
         {
             AudioSource.PlayClipAtPoint(turnOnSound, transform.position);
